@@ -29,3 +29,61 @@
     text-align: center;
     
 }
+
+.input-cards{
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid grey;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+.first-num{
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.second-num{
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.output{
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.buttons-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.button-el{
+    color:blue;
+    background-color: beige;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 99px;
+}

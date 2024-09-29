@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title> Mini Calculator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="myPage.css"/>
     </head>
@@ -8,7 +9,16 @@
         <div class="main-container">
             <div class="calc-card">
                 <h1 class="calc-heading"> Mini Calculator </h1>
+                <div class="input-cards">
+                    <input type="number" class="first-num" id="firstNum" placeholder="First Number"/>
+                    <input type="number" class="second-num" id="secondNum" placeholder="Second Number"/>
+                    <input type="number" class="output" id="output" placeholder="Result"/>
+                </div>
+                <div class="buttons-card" id="buttonsCard">
+                    <!-- Buttons Added Dynamically -->
+                </div>
             </div>
         </div>
+        <script type="text/javascript" src="myPage.js"></script>
     </body>
 </html>
